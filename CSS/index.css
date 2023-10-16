@@ -22,19 +22,68 @@ header {
     padding: 24px 80px 24px 80px;
 }
 
-header nav a {
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 2rem;
-    font-weight: 600;
+#ul__menu {
+    padding: 0;
+    list-style: none;
+    display: table;
 }
+
+.li__menu {
+    display: table-cell;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.link__menu {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.link__menu:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.link__menu:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+#logo__menu {
+    width: 220px;
+}
+
 
 #inicio {
     display: flex;
     align-items: center;
     gap: 2rem;
-    padding: 24px 80px 128px 80px;
+    padding: 124px 120px 128px 100px;
     position: relative;
+}
+
+@media (max-width: 1000px) {
+    #inicio {
+        flex-wrap: wrap;
+    }
 }
 
 h1, h2 {
@@ -49,18 +98,65 @@ h1, h2 {
 }
 
 .botao {
-    background-color: var(--laranja-escuro);
-    padding: 1rem 2rem;
-    color: #FFF;
+    border-radius: 4px;
+    background-color: var(--laranja-claro);
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: all 0.45s ease;
     text-decoration: none;
-    border-radius: 0.5rem;
+}
+
+.botao:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.botao:hover:after {
+    opacity: 1;
+    right: 10px;
 }
 
 .botao__transparente {
     background-color: transparent;
     color: var(--laranja-escuro);
-    padding: 1rem 2rem;
-    text-underline-offset: 8px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin: 1.5rem 2rem;
+}
+
+.botao__transparente:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 1.3rem;
+    bottom: 0;
+    left: 0;
+    background-color: var(--laranja-escuro);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.botao__transparente:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .absolute {
@@ -76,6 +172,12 @@ h1, h2 {
     align-content: center;
     gap: 4rem;
     padding: 4rem 80px;
+}
+
+@media (max-width: 1000px) {
+    #clinica {
+        flex-wrap: wrap;
+    }
 }
 
 #clinica li {
@@ -95,6 +197,7 @@ h1, h2 {
 #farmacia .paragrafo {
     margin: 0 auto;
     max-width: 950px;
+    text-align: left;
 }
 
 #duvidas {
@@ -102,6 +205,12 @@ h1, h2 {
     align-content: center;
     gap: 4rem;
     padding: 4rem 80px;
+}
+
+@media (max-width: 1000px) {
+    #duvidas {
+        flex-wrap: wrap;
+    }
 }
 
 .duvida {
@@ -143,6 +252,7 @@ h1, h2 {
 footer {
     background-color: var(--fundo);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 80px;
     padding: 4rem 80px;
@@ -161,9 +271,19 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    transition: all .45s ease;
+    transform: translateX(10px);
+}
+
 footer p {
     margin-bottom: 1rem;
     max-width: 350px;
+}
+
+.p__footer:hover {
+    transition: all .45s ease;
+    transform: translateX(10px);
 }
 
 footer p a {
@@ -174,11 +294,31 @@ footer p a {
 #copyright {
     background-color: var(--cor-texto);
     text-align: center;
-    padding: 24px;
+    padding: 1.5rem;
     color: #FFF;
 }
 
 #copyright a {
+    display: inline-block;
+    position: relative;
     color: var(--laranja-claro);
-    text-underline-offset: 8px;
+    text-decoration: none;
+}
+
+#copyright a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--laranja-claro);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#copyright a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
