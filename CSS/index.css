@@ -43,6 +43,11 @@ header {
     position: relative;
 }
 
+.link__menu:hover {
+    letter-spacing: 0.3rem;
+    transition: all .65s ease;
+}
+
 .link__menu:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
