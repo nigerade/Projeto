@@ -1,0 +1,42 @@
+@import url(sobre.css);
+
+#sobre__nos {
+    text-align: center;
+}
+
+#sobre__first {
+    padding: 5rem 5rem;
+}
+
+#sobre__first-h3 {
+    margin-bottom: 3rem;
+}
+
+#sobre__sec {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#sobre__sec-h1 {
+    text-align: center;
+}
+
+#sobre__sec-ul {
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    line-height: 3rem;    
+    margin-bottom: 5rem;
+}
+
+.sobre__sec-p {
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+
+.sobre__sec-li {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
