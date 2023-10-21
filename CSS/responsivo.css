@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+    .img__responsiva {
+        display: none;
+        transition: all .45s ease;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        padding: 5rem 120px;
+        transition: all .45s ease;
+        gap: 60px;
+    }
+
+    .titulo {
+        font-size: 1.2rem;
+        transition: all .45s ease;
+    }
+
+    footer img {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        transition: all .45s ease;
+    }
+}
+
+@media (max-width: 715px) {
+    .botao__transparente {
+        margin: 0;
+        padding-top: 1.2rem;
+        transition: all .45s ease;
+    }
+
+    #inicio__div-botoes {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: all .45s ease;
+    }
+}

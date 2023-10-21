@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/responsivo.css">
     <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon" />
     <title>Qui Queijo Bom Sô</title>
 </head>
@@ -31,7 +32,8 @@
 
     <main>
         <section id="inicio">
-            <img src="IMGS/Delivery__semFundo.png" alt="Imagem Banner Inicial" width="460" height="auto" loading="lazy">
+            <img src="IMGS/Delivery__semFundo.png" alt="Imagem Banner Inicial" width="460" height="auto" loading="lazy"
+                class="img__responsiva">
 
             <div>
                 <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
@@ -42,9 +44,11 @@
                     ratione quo, quas voluptatem.
                 </p>
 
-                <a href="https://wa.me/5511992889443" class="botao" target="_blank">Peça no WhatsApp</a>
+                <div id="inicio__div-botoes">
+                    <a href="https://wa.me/5511992889443" class="botao" target="_blank">Peça no WhatsApp</a>
 
-                <a href="#clinica" class="botao__transparente">Conheça nossos Produtos</a>
+                    <a href="#clinica" class="botao__transparente">Conheça nossos Produtos</a>
+                </div>
 
                 <img src="IMGS/shape.svg" class="absolute" alt="">
             </div>
@@ -78,14 +82,14 @@
             </div>
 
             <img src="IMGS/Queijo__Detalhe__semFundo.png" alt="Imagem da Clinica" width="480" height="480"
-                loading="lazy">
+                loading="lazy" class="img__responsiva">
         </section>
 
         <section id="farmacia">
             <h2>Venha conferir os nossos melhores Produtos</h2>
 
             <img src="IMGS/Queijo__Detalhe__semFundo.png" alt="Imagem da Farmácia" width="430" height="430"
-                loading="lazy">
+                loading="lazy" class="img__responsiva">
 
             <p class="paragrafo">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsam ex ab sint pariatur, rerum magni
@@ -114,7 +118,8 @@
         </section>
 
         <section id="duvidas">
-            <img src="IMGS/faq-img.svg" alt="Imagem de 2 pessoas com dúvida" height="540" width="540" loading="lazy">
+            <img src="IMGS/faq-img.svg" alt="Imagem de 2 pessoas com dúvida" height="540" width="540" loading="lazy"
+                class="img__responsiva">
 
             <div>
                 <h2>Ficou alguma dúvida?</h2>
