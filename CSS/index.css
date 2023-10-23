@@ -207,6 +207,11 @@ h1, h2 {
     padding: 4rem 80px;
 }
 
+.duvida img:hover {
+    transition: transform .7s ease-in-out;
+    transform: rotate(180deg);
+}
+
 @media (max-width: 1000px) {
     #duvidas {
         flex-wrap: wrap;
