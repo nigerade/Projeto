@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-size: cover;
+    background-image: url(../IMGS/bg-contato.jpg);
 }
 
 .contact .content {
@@ -17,6 +19,17 @@
 
 .content__texto {
     padding: 0 4rem;
+    color: #fff;
+}
+
+.content__texto h2 {
+    text-shadow: 4px 4px 1cap rgba(0, 0, 0, 0.2);
+    font-size: 3rem;
+}
+
+.content__texto p {
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 @media (max-width: 1000px) {
@@ -43,6 +56,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+    background-color: #fff;
+    padding: 1rem;
+    padding-bottom: 3rem;
 }
 
 .container .contactInfo {
@@ -55,6 +71,16 @@
     position: relative;
     padding: 20px 0;
     display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 550px) {
+    .container .contactInfo .box {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
 
 .container .contactInfo .box .icon {
@@ -147,10 +173,10 @@
     color: #666;
 }
 
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span {
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
     color: #000;
     font-size: 13px;
     transform: translateY(-20px);
@@ -165,7 +191,7 @@
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
 .contactForm .inputBox input[type="submit"]:hover {
