@@ -5,7 +5,7 @@
 }
 
 #linha__doTempo-h1 {
-    padding: 5rem 1rem;
+    padding: 8rem 0rem;
 }
 
 #sobre__sec {
@@ -141,24 +141,6 @@
     left: 50%;
 }
 
-.container img {
-    position: absolute;
-    width: 40px;
-    border-radius: 50%;
-    right: -20px;
-    top: 2rem;
-    z-index: 10px;
-}
-
-.container img:hover {
-    transition: all .45s ease;
-    transform: scale(1.3);
-}
-
-.right-container img {
-    left: -20px;
-}
-
 .timeline::after {
     content: '';
     position: absolute;
@@ -168,7 +150,7 @@
     top: 0;
     left: 50%;
     margin-left: -3px;
-    z-index: -1;
+    z-index: 1;
     animation: moveline 6s linear forwards;
     background-color: var(--laranja-escuro);
 }
@@ -241,10 +223,6 @@
 
     .right-container {
         left: 0;
-    }
-
-    .left-container img, .right-container img {
-        left: 10px;
     }
 
     .left-container-arrow, .right-container-arrow {
