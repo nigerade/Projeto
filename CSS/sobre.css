@@ -9,13 +9,28 @@
 }
 
 #sobre__sec {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
+    color: #fff;
+    padding: 10rem 15rem;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMGS/queijo-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1000px) {
+    #sobre__sec {
+        padding: 3rem 5rem;
+        transition: all .45s ease;
+    }
+
+    #sobre__sec-h1 {
+        margin-top: 4rem;
+    }
 }
 
 #sobre__sec-h1 {
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 #sobre__sec-ul {
@@ -27,14 +42,31 @@
 
 .sobre__sec-p {
     line-height: 1.2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#sobre__sec p {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 
 .sobre__sec-li {
     text-align: center;
     list-style-type: none;
-    padding-bottom: 1rem;
+    padding: 1rem 1rem;
     font-weight: 500;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    .sobre__sec-p {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
 }
 
 .timeline {
@@ -184,7 +216,7 @@
     left: -1rem;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .timeline {
         margin: 50px auto;
     }

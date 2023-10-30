@@ -23,13 +23,6 @@
     }
 }
 
-@media (max-width: 950px) {
-    #sobre__sec {
-        margin: 2rem;
-        transition: all .45s ease;
-    }
-}
-
 @media (max-width: 715px) {
     .botao__transparente {
         margin: 0;
