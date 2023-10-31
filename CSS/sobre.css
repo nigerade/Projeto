@@ -131,7 +131,6 @@
     position: relative;
     border-radius: 6px;
     font-size: 1rem;
-    border: 2px solid #000;
 }
 
 .text-box p {
@@ -203,7 +202,7 @@
     left: -1rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
     .timeline {
         margin: 50px auto;
     }
