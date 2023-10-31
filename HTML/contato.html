@@ -98,23 +98,25 @@
                         <h2>Enviar Mensagem</h2>
 
                         <div class="inputBox">
-                            <input type="text" name="name" required autofocus id="campo__nome">
+                            <input type="text" name="name" autofocus id="campo__nome">
                             <span>Nome Completo</span>
                         </div>
 
                         <div class="inputBox">
-                            <input type="email" name="email" required id="campo__email">
+                            <input type="email" name="email" id="campo__email">
                             <span>Email</span>
                         </div>
 
                         <div class="inputBox">
-                            <textarea required id="campo__msg"></textarea>
+                            <textarea type="text" name="message" id="campo__msg"></textarea>
                             <span>Mensagem</span>
                         </div>
 
-                        <div class="inputBox">
-                            <input type="submit" name="" value="Enviar" id="open-popup-btn">
+                        <div class="inputBox">        
+                            <button type="submit" name="submit" value="" class="open-popup-btn">Enviar</button>
                         </div>
+
+                        <input type="hidden" name="_next" value="../HTML/agradecimentos.html">
                     </form>
                 </div>
 

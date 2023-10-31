@@ -186,8 +186,8 @@
 }
 
 
-.contactForm .inputBox input[type="submit"] {
-    width: 100px;
+.contactForm .inputBox button {
+    width: 100%;
     background: #000;
     color: #fff;
     border: none;
@@ -196,9 +196,10 @@
     font-size: 18px;
 }
 
-.contactForm .inputBox input[type="submit"]:hover {
+.contactForm .inputBox button:hover {
     transition: all .45s ease;
-    transform: scale(1.1);
+    box-shadow: 0 0.5em 1em -0.4em #000;
+    transform: translateY(-0.15em);
 }
 
 @media (max-width: 991px) {
