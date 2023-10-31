@@ -84,7 +84,6 @@
     padding: 10px 50px;
     position: relative;
     width: 50%;
-    animation: movedown 1s linear forwards;
     opacity: 0;
     transition: all .45s ease;
 }
