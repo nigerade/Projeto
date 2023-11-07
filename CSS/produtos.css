@@ -27,3 +27,13 @@
     font-size: 1rem;
     margin-right: 10px;
 }
+
+.sproduct input:focus {
+    outline: none;
+}
+
+.buy-btn {
+    background: var(--laranja-claro);
+    opacity: 1;
+    transition: 0.3 all;
+}
