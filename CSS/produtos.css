@@ -238,3 +238,14 @@
     background-color: var(--laranja-escuro);
     transition: all .45s ease;
 }
+
+#div-produtos h5 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#div-produtos h4 {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
