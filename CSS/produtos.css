@@ -15,7 +15,7 @@
     border: none;
 }
 
-.sproduct select{
+.sproduct select {
     display: block;
     padding: 5px 10px;
 }
@@ -32,20 +32,31 @@
     outline: none;
 }
 
-.buy-btn {
-    background: var(--laranja-claro);
-    opacity: 1;
-    transition: 0.3 all;
+#btn-buy:link, #btn-buy:visited {
+    background-color: var(--laranja-claro);
+    color: white;
+    padding: 14px 25px;
+    margin: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#btn-buy:hover, #btn-buy:active {
+    background-color: var(--laranja-escuro);
+    transition: all .45s ease;
 }
 
 .small-img {
     width: 100%;
     cursor: pointer;
-    opacity: 0.7; /* Define uma opacidade inicial para as imagens pequenas */
-    transition: opacity 0.45s ease; /* Adiciona uma transição suave para a opacidade */
+    opacity: 0.7;
+    /* Define uma opacidade inicial para as imagens pequenas */
+    transition: opacity 0.45s ease;
+    /* Adiciona uma transição suave para a opacidade */
 }
 
 .small-img:hover {
-    opacity: 1; /* Altera a opacidade quando o mouse está sobre a imagem pequena */
+    opacity: 1;
+    /* Altera a opacidade quando o mouse está sobre a imagem pequena */
 }
-
