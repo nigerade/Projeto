@@ -1,0 +1,62 @@
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.buy-btn {
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+    border: none;
+}
+
+.sproduct select {
+    display: block;
+    padding: 5px 10px;
+}
+
+.sproduct input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.sproduct input:focus {
+    outline: none;
+}
+
+#btn-buy:link, #btn-buy:visited {
+    background-color: var(--laranja-claro);
+    color: white;
+    padding: 14px 25px;
+    margin: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#btn-buy:hover, #btn-buy:active {
+    background-color: var(--laranja-escuro);
+    transition: all .45s ease;
+}
+
+.small-img {
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.7;
+    /* Define uma opacidade inicial para as imagens pequenas */
+    transition: opacity 0.45s ease;
+    /* Adiciona uma transição suave para a opacidade */
+}
+
+.small-img:hover {
+    opacity: 1;
+    /* Altera a opacidade quando o mouse está sobre a imagem pequena */
+}

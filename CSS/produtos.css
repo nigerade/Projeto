@@ -1,20 +1,5 @@
 @import url(index.css);
 
-#btn-buy:link, #btn-buy:visited {
-    background-color: var(--laranja-claro);
-    color: white;
-    padding: 14px 25px;
-    margin: 2rem 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#btn-buy:hover, #btn-buy:active {
-    background-color: var(--laranja-escuro);
-    transition: all .45s ease;
-}
-
 #contato {
     position: relative;
     min-height: 100vh;
@@ -23,7 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../IMGS/bg-contato.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(../IMGS/bg-produtos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,6 +26,7 @@
 .content__texto h2 {
     text-shadow: 1px 1px 1px #000;
     font-size: 3rem;
+    text-align: center;
 }
 
 .content__texto p {
@@ -74,8 +60,7 @@
     align-items: center;
     margin-top: 5rem;
     background-color: #fff;
-    padding: 1rem;
-    padding-bottom: 3rem;
+    padding: 3rem 2.5rem;
 }
 
 .container .contactInfo {
@@ -239,4 +224,19 @@
 .text__link {
     text-decoration: none;
     color: #000;
+}
+
+#btn-buy:link, #btn-buy:visited {
+    background-color: var(--laranja-claro);
+    color: white;
+    padding: 14px 25px;
+    margin: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#btn-buy:hover, #btn-buy:active {
+    background-color: var(--laranja-escuro);
+    transition: all .45s ease;
 }
