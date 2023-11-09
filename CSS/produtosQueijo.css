@@ -8,13 +8,6 @@
     cursor: pointer;
 }
 
-.buy-btn {
-    background-color: #000;
-    padding: 1rem;
-    color: #fff;
-    border: none;
-}
-
 .sproduct select {
     display: block;
     padding: 5px 10px;
@@ -61,3 +54,23 @@
     /* Altera a opacidade quando o mouse está sobre a imagem pequena */
 }
 
+#bg-produtosQueijo {
+    position: relative;
+    min-height: 100vh;
+    padding: 8rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../IMGS/bg-contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
