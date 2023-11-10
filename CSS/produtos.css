@@ -249,3 +249,34 @@
     line-height: 1.5;
     font-weight: 600;
 }
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.hover-overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    /* Inicialmente fora da tela */
+    width: 100%;
+    height: 20%;
+    /* Altura desejada */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease;
+}
+
+.image-container:hover .hover-overlay {
+    left: 0;
+    /* Move para o canto superior esquerdo ao passar o mouse */
+}
+
+.label {
+    font-size: 1.5em;
+}
