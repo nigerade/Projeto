@@ -94,12 +94,11 @@
 }
 
 #featured {
-    margin-top: 9rem;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: var(--second-color);
-    margin-top: 2rem;
+    margin-top: 10rem;
 }
 
 #div-content h3 {
