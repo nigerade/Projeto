@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="../CSS/index.css">
     <link rel="stylesheet" href="../CSS/produtosQueijo.css">
+    <link rel="stylesheet" href="../CSS/swiper.css">
     <link rel="shortcut icon" href="../favicon/favicon-32x32.png" type="image/x-icon" />
     <title>Qui Queijo Bom Sô</title>
 </head>
@@ -35,7 +36,7 @@
 
     <main id="main">
         <section id="bg-produtosQueijo">
-            <section class="container sproduct mt-5 pt-5 pb-5">
+            <section class="container sproduct pb-2">
                 <div class="row mt-5">
                     <div class="col-lg-5 col-md-12 col-12">
                         <img class="img-fluid w-100 pb-1" src="../IMGS/Fotos Carrossel 01.png" id="MainImg" alt="">
@@ -81,42 +82,103 @@
                     </div>
                 </div>
 
-                <div class="container">
+                <div class="container-relacionados">
                     <div class="row mx-auto container-fluid mt-5">
-                        <div class="product text-center col-lg-3 col-md-4 col-12" id="div-produtos">
-                            <img class="img-fluid mb-3" src="../IMGS/Fotos Carrossel 01.png" alt="">
+                        <div class="slide-container swiper">
+                            <div class="slide-content">
+                                <div class="card-wrapper swiper-wrapper">
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
 
-                            <h5 class="p-name">Queijo Rosa</h5>
-                            <h4 class="p-price">R$ 69,00</h4>
+                                            <div class="card-image">
+                                                <img src="../IMGS/Fotos Carrossel 03.png"
+                                                    alt="" class="card-img">
+                                            </div>
+                                        </div>
 
-                            <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
-                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">Queijo Preto</h2>
 
-                        <div class="product text-center col-lg-3 col-md-4 col-12" id="div-produtos">
-                            <img class="img-fluid mb-3" src="../IMGS/Fotos Carrossel 02.png" alt="">
+                                            <p class="description">R$ 59,00</p>
 
-                            <h5 class="p-name">Queijo Enroladinho</h5>
-                            <h4 class="p-price">R$ 59,00</h4>
+                                            <div class="div-button-produtos">
+                                                <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                            <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
-                        </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
 
-                        <div class="product text-center col-lg-3 col-md-4 col-12" id="div-produtos">
-                            <img class="img-fluid mb-3" src="../IMGS/Fotos Carrossel 03.png" alt="">
+                                            <div class="card-image">
+                                                <img src="../IMGS/Fotos Carrossel 02.png"
+                                                    alt="" class="card-img">
+                                            </div>
+                                        </div>
 
-                            <h5 class="p-name">Queijo Preto/</h5>
-                            <h4 class="p-price">R$ 79,00</h4>
+                                        <div class="card-content">
+                                            <h2 class="name">Queijo Enroladinho</h2>
 
-                            <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
-                        </div>
+                                            <p class="description">R$ 69,00</p>
 
-                        <div class="product text-center col-lg-3 col-md-4 col-12" id="div-produtos">
-                            <img class="img-fluid mb-3" src="../IMGS/Fotos Carrossel 04.png" alt="">
+                                            <div class="div-button-produtos">
+                                                <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                            <h5 class="p-name">Queijo Salame</h5>
-                            <h4 class="p-price">R$ 89,00</h4>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
 
-                            <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
+                                            <div class="card-image">
+                                                <img src="../IMGS/Fotos Carrossel 01.png"
+                                                    alt="" class="card-img">
+                                            </div>
+                                        </div>
+
+                                        <div class="card-content">
+                                            <h2 class="name">Queijo Rosa</h2>
+
+                                            <p class="description">R$ 79,00</p>
+
+                                            <div class="div-button-produtos">
+                                                <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+
+                                            <div class="card-image">
+                                                <img src="../IMGS/Fotos Carrossel 04.png"
+                                                    alt="" class="card-img">
+                                            </div>
+                                        </div>
+
+                                        <div class="card-content">
+                                            <h2 class="name">Queijo Salame</h2>
+
+                                            <p class="description">R$ 89,00</p>
+
+                                            <div class="div-button-produtos">
+                                                <a href="../HTML/produtoQueijo.html" id="btn-buy">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next" id="swiper-navBtn"></div>
+                            <div class="swiper-button-prev" id="swiper-navBtn"></div>
+                            <div id="pagination">
+                                <div class="swiper-pagination"></div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -164,6 +226,8 @@
 
     <script src="../JS/index.js"></script>
     <script src="../JS/products.js"></script>
+    <script src="../JS/swiper.js"></script>
+    <script src="../JS/swiper2.js"></script>
 
 </body>
 

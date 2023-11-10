@@ -59,7 +59,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../IMGS/bg-contato.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../IMGS/bg-produtos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -120,4 +120,134 @@
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 600;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: rgb(231, 231, 231)
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    background: transparent;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+}
+
+#pagination {
+    padding-top: 4rem;
+}
+
+.image-content, .card-content {
+    padding: 0px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content {
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #333;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Muller";
+    line-height: 1.5;
+}
+
+.button-produtos {
+    border: none;
+    font-size: 1rem;
+    color: var(--second-color);
+    padding: 0.5rem 1rem;
+    background-color: var(--main-color);
+    border-radius: 6px;
+    margin: 0.9rem;
+    cursor: pointer;
+    box-shadow: 0 3px 3px -1px #ccc;
+}
+
+.button-produtos:hover {
+    transition: all .45s ease;
+    transform: scale(1.1);
+    filter: brightness(105%);
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image .card-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 4px solid var(--main-color);
+    border-radius: 0 25px 0 25px;
+    box-shadow: 6px 6px 2px hsl(355deg 25% 15% / 10%);
+}
+
+#swiper-navBtn {
+    color: var(--main-color);
+}
+
+#swiper-navBtn:hover {
+    transition: all .45s ease;
+    filter: brightness(80%);
+}
+
+#swiper-navBtn::before, .swiper-navBtn::after {
+    font-size: 40px;
+}
+
+.swiper-button-next {
+    padding-left: 0.85rem;
+}
+
+.swiper-button-prev {
+    padding-right: 0.85rem;
+}
+
+.swiper-button-next:hover {
+    transition: all .45s ease;
+    transform: translateX(5px);
+}
+
+.swiper-button-prev:hover {
+    transition: all .45s ease;
+    transform: translateX(-5px);
+}
+
+.div-h2-produtos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#h2-produtos {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.div-button-produtos {
+    margin-top: 3rem;
+}
+
+.footer-produtos {
+    margin-top: 0 !important;
 }
