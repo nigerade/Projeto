@@ -22,10 +22,24 @@ header {
     padding: 12px 80px;
 }
 
+#menuHamburguer {
+    display: none;
+}
+
 #ul__menu {
     padding: 0;
     list-style: none;
     display: table;
+}
+
+@media (max-width: 800px) {
+    #ul__menu {
+        display: none;
+    }
+
+    #menuHamburguer {
+        display: block;
+    }
 }
 
 .li__menu {
@@ -70,7 +84,6 @@ header {
 #logo__menu {
     width: 6.5rem;
 }
-
 
 #inicio {
     display: flex;
@@ -323,3 +336,5 @@ footer p a {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+
