@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto
 
-Este site foi criado como Freelance para a Empresa Qui Queijo Bom Sô, loja de queijos.
+Este site foi criado como Freelance para a Empresa Qui Queijo Bom Sô, loja de Varejo.
 Este projeto possui Direitos de Copyright e não deve ser clonado, copiado ou modificado, sendo passivo de Ação de Direitos Autorais e Propriedade Intelectual. 
 
 Você pode ver o site neste link: [Site Qui Queijo Bom Sô](https://nigerade.github.io/Projeto_QuiQueijoBomSo/)
