@@ -237,6 +237,7 @@ h1, h2 {
     border-radius: 0.5rem;
     cursor: pointer;
     padding: 24px;
+    line-height: 1.5;
 }
 
 .duvida img {
@@ -295,6 +296,7 @@ footer nav a:hover {
 footer p {
     margin-bottom: 1rem;
     max-width: 350px;
+    line-height: 1.5;
 }
 
 .p__footer:hover {
