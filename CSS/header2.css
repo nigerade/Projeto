@@ -1,0 +1,67 @@
+header {
+    /* configuracoes do header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+}
+
+.header2 {
+    /* configuracoes quando o usuario clica no menu hamburguer */
+    background-color: #2a2a2a;
+    transition: all .45s ease;
+}
+
+.logo {
+    /* configuracoes do texto: Dev. */
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+span {
+    /* deixa o: E, do Dev. da main color */
+    color: var(--main-color);
+}
+
+.navlist {
+    /* configura os links do header */
+    display: flex;
+}
+
+.navlist a {
+    /* estilo dos links do header */
+    font-size: 17px;
+    font-weight: 510;
+    color: var(--text-color);
+    margin: 0 25px;
+    transition: all .45s ease;
+}
+
+.navlist a:hover {
+    /* ao passar o mouse por cima dos links do header */
+    color: var(--main-color);
+}
+
+.navlist a:active {
+    /* estilo do link ativo */
+    color: var(--text-color);
+}
+
+#menu-icon {
+    /* estilo do menu hamburguer (icone) */
+    font-size: 3rem;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}

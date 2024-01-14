@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--laranja-claro);
+    padding: 12px 80px;
+}
+
+#menuHamburguer {
+    display: none;
+}
+
+#ul__menu {
+    padding: 0;
+    list-style: none;
+    display: table;
+}
+
+.li__menu {
+    display: table-cell;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.link__menu {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.link__menu:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.link__menu:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+#logo__menu {
+    width: 6.5rem;
+    margin: 0 auto;
+}
+
+#menu-icon {
+    /* estilo do menu hamburguer (icone) */
+    font-size: 3rem;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}

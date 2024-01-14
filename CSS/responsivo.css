@@ -41,3 +41,13 @@
     }
 }
 
+@media (max-width: 840px) {
+
+    /* tela até 840px */
+    #menu-icon {
+        /* estilo do menu hamburguer */
+        /* sai do display none e mostra o menu */
+        display: block;
+    }
+
+}
