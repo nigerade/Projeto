@@ -50,4 +50,57 @@
         display: block;
     }
 
+    .navlist {
+        /* estilo da navlist - links header */
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--second-color);
+        text-align: left;
+        transition: all .45s ease;
+        box-shadow: 0 7px 7px -1px #ccc;
+    }
+
+    .navlist a {
+        /* estilo dos links da navlist */
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
+
+    .navlist a:hover {
+        /* hover dos links da navlist */
+        color: var(--second-color);
+    }
+
+    .navlist a:active {
+        /* links da navlist quando ativados */
+        color: var(--text-color);
+    }
+
+    .navlist.open {
+        /* links da navlist quando abertos*/
+        top: 100%;
+    }
+}
+
+@media (max-width: 510px) {
+    .logo {
+        width: 100px !important;
+        height: auto !important;
+    }
+
+    header {
+        padding: 1rem !important;
+    }
+
+    #menu-icon {
+        margin-right: 1rem;
+        font-size: 2.5rem;
+    }
 }

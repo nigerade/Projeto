@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -267,5 +271,3 @@ footer p a {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-
-
