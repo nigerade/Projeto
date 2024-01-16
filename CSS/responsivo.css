@@ -82,7 +82,8 @@
     #sobre__sec p,
     .content__texto p,
     #texto-index,
-    #clinica {
+    #clinica,
+    #h2-duvida {
         text-align: center;
     }
 }
