@@ -90,6 +90,10 @@
     .contactForm {
         padding: 15px !important;
     }
+
+    #sobre__sec {
+        padding: 10rem 2rem !important;
+    }
 }
 
 @media (max-width: 510px) {
