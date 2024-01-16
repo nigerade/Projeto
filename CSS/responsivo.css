@@ -61,7 +61,6 @@
         background: var(--laranja-claro);
         text-align: center;
         transition: all .45s ease;
-        box-shadow: 0 7px 7px -1px #ccc;
     }
 
     .navlist a {
