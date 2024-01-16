@@ -28,6 +28,7 @@ header {
 .navlist {
     /* configura os links do header */
     display: flex;
+    list-style-type: none;
 }
 
 #menu-icon {

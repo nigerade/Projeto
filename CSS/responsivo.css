@@ -82,6 +82,15 @@
         /* links da navlist quando abertos*/
         top: 100%;
     }
+
+    .content__texto h2,
+    #sobre__sec-h1,
+    #sobre__sec p,
+    .content__texto p,
+    #texto-index,
+    #clinica {
+        text-align: center;
+    }
 }
 
 @media (max-width: 510px) {
