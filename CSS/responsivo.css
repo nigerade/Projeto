@@ -133,6 +133,26 @@
     }
 }
 
+@media (max-width: 645px) {
+    footer {
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    footer p {
+        font-size: 1.2rem; 
+    }
+
+    footer nav a {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+
+    .titulo {
+        font-size: 1.4rem;
+    }
+}
+
 @media (max-width: 400px) {
     #contato {
         padding: 15rem 1.5rem !important;
