@@ -110,6 +110,19 @@
     #duvidas {
         padding: 4rem 1rem !important;
     }
+
+    #sec-valores {
+        padding: 4rem 2rem !important;
+    }
+
+    #sec-valores h2 {
+        text-align: center;
+    }
+
+    #sec-apresentacao {
+        padding: 4rem 2rem !important;
+
+    }
 }
 
 @media (max-width: 510px) {
