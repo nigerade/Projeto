@@ -33,7 +33,7 @@ header {
 
 #menu-icon {
     /* estilo do menu hamburguer (icone) */
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #000;
     z-index: 10001;
     cursor: pointer;
