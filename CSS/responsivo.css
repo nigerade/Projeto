@@ -127,12 +127,6 @@
     }
 }
 
-@media (max-width: 600px) {
-    #contato {
-        padding: 15rem 3rem !important;
-    }
-}
-
 @media (max-width: 645px) {
     footer {
         text-align: center;
@@ -152,6 +146,23 @@
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 600px) {
+    #contato {
+        padding: 15rem 3rem !important;
+    }
+}
+
+@media (max-width: 460px) {
+    #contato {
+        padding: 15rem 1.5rem !important;
+    }
+
+    .container {
+        padding: 3rem 1rem !important;
+    }
+}
+
 
 @media (max-width: 400px) {
     #contato {
