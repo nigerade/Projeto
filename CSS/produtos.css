@@ -252,6 +252,8 @@
 #btn-buy:hover, #btn-buy:active {
     background-color: var(--laranja-escuro);
     transition: all .45s ease;
+    box-shadow: 0 0.4em 0.8em -0.4em var(--laranja-escuro);
+    transform: translateY(-0.15em);
 }
 
 #div-produtos h5 {
