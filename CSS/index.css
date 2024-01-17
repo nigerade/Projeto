@@ -113,7 +113,7 @@ h1, h2 {
     z-index: -10;
 }
 
-#clinica {
+#sec-valores {
     display: flex;
     align-content: center;
     gap: 4rem;
@@ -121,26 +121,26 @@ h1, h2 {
 }
 
 @media (max-width: 1000px) {
-    #clinica {
+    #sec-valores {
         flex-wrap: wrap;
     }
 }
 
-#clinica li {
+#sec-valores li {
     margin-bottom: 1rem;
     margin-left: 2rem;
 }
 
-#farmacia {
+#sec-apresentacao {
     padding: 4rem 80px;
     text-align: center;
 }
 
-#farmacia img {
+#sec-apresentacao img {
     margin: 4rem auto;
 }
 
-#farmacia .paragrafo {
+#sec-apresentacao .paragrafo {
     margin: 0 auto;
     max-width: 950px;
     text-align: left;
