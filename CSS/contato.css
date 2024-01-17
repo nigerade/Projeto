@@ -152,7 +152,7 @@
 .contactForm .inputBox input,
 .contactForm .inputBox textarea {
     width: 100%;
-    padding: 5px 0;
+    padding: 10px 0;
     font-size: 1rem;
     margin: 15px 0;
     border: none;
@@ -162,13 +162,12 @@
 }
 
 .contactForm .inputBox textarea {
-    padding: 15px 0;
+    padding: 1.5rem 0;
 }
 
 .contactForm .inputBox span {
     position: absolute;
     left: 0;
-    padding: 5px 0;
     font-size: 1rem;
     margin: 10px 0;
     pointer-events: none;
@@ -181,7 +180,7 @@
 .contactForm .inputBox textarea:focus~span,
 .contactForm .inputBox textarea:valid~span {
     color: #000;
-    font-size: 13px;
+    font-size: 1rem;
     transform: translateY(-20px);
     font-weight: 500;
 }
