@@ -59,17 +59,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(../IMGS/bg-produtos.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../IMGS/bg-produtos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.container {
+#produtosQueijo-container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: transparent;
+}
+
+@media (max-width: 991px) {
+    #produtosQueijo-container {
+        text-align: center;
+    }
 }
 
 .content {
@@ -124,4 +130,29 @@
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 600;
+}
+
+#produtos-IMGS {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+#div-content li {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    list-style-type: disc;
+    font-size: 1.1rem;
+    
+}
+
+@media (max-width: 991px) {
+    #div-content li {
+        text-align: center;
+        list-style-type: none;
+        margin-left: 0;
+    }
+}
+
+#main {
+    color: #fff;
 }

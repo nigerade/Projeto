@@ -121,7 +121,10 @@
 
     #sec-apresentacao {
         padding: 4rem 2rem !important;
+    }
 
+    #bg-produtosQueijo {
+        padding: 10rem 3rem !important;
     }
 }
 
@@ -138,6 +141,10 @@
     #menu-icon {
         margin-right: 1rem;
     }
+
+    #bg-produtosQueijo {
+        padding: 10rem 1rem !important;
+    }
 }
 
 @media (max-width: 645px) {
@@ -147,7 +154,7 @@
     }
 
     footer p {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
     }
 
     footer nav a {
