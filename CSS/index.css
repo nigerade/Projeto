@@ -167,7 +167,7 @@ h1, h2 {
     border: 2px solid var(--laranja-claro);
     border-radius: 0.5rem;
     cursor: pointer;
-    padding: 24px;
+    padding: 24px 5rem 24px 1rem;
     line-height: 1.5;
 }
 
