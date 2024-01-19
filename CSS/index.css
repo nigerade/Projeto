@@ -196,3 +196,13 @@ h1, h2 {
     opacity: 1;
     padding: 24px;
 }
+
+.rotate {
+    transform: rotate(180deg); /* gira a seta pra cima */
+    transition: transform 0.45s ease; 
+}
+
+.rotate2 {
+    transform: rotate(0deg);
+    transition: transform 0.45s ease; 
+}
