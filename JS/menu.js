@@ -25,4 +25,3 @@ window.onscroll = () => {
     header2.classList.remove('header2');
     // Tira a classe header2 para parar de puxar o CSS dessa Classe e voltar a ficar Transparent
 };
-//  ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023 
