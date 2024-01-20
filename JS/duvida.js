@@ -18,5 +18,5 @@ elementosDuvida.forEach(function (duvida) {
         // Verificação Prévia para ver se estava funcionando o classList.toggle
     })
 })
-
+//  ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2023 
 

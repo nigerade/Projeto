@@ -31,3 +31,4 @@ document.getElementById("dismiss-popup-btn").addEventListener("click", function 
     document.querySelector(".open-popup-btn").style.display = "block";
     document.querySelector(".popup").classList.remove("active");
 });
+//  ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2024
