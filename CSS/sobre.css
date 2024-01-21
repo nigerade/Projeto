@@ -38,13 +38,6 @@
     text-shadow: 1px 1px 1px #000;
 }
 
-#sobre__sec-ul {
-    font-size: 1.2rem;
-    margin-top: 5rem;
-    line-height: 3rem;
-    margin-bottom: 5rem;
-}
-
 .sobre__sec-p {
     line-height: 1.2rem;
     font-size: 1.2rem;
@@ -249,6 +242,7 @@
 
 .icons {
     margin: 0 auto;
+    padding-top: 2rem;
     width: 80px;
     display: flex;
     justify-content: center;
