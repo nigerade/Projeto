@@ -235,7 +235,7 @@
     color: #000;
 }
 
-#btn-buy:link, #btn-buy:visited {
+.btn-buy:link, .btn-buy:visited {
     background-color: var(--laranja-claro);
     color: white;
     padding: 14px 25px;
@@ -249,20 +249,20 @@
     width: 120px;
 }
 
-#btn-buy:hover, #btn-buy:active {
+.btn-buy:hover, .btn-buy:active {
     background-color: var(--laranja-escuro);
     transition: all .45s ease;
     box-shadow: 0 0.4em 0.8em -0.4em var(--laranja-escuro);
     transform: translateY(-0.15em);
 }
 
-#div-produtos h5 {
+.div-produtos h5 {
     font-size: 1rem;
     line-height: 1.5;
     text-align: center;
 }
 
-#div-produtos h4 {
+.div-produtos h4 {
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 600;
