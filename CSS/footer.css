@@ -42,20 +42,31 @@ footer p a {
 }
 
 #copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: var(--cor-texto);
-    text-align: center;
+    align-items: center;
     padding: 1.5rem;
     color: #FFF;
+    flex-wrap: wrap;
 }
 
-#copyright a {
+@media (max-width: 750px) {
+    #copyright {
+        justify-content: center;
+        gap: 3rem;
+    }
+}
+
+.left-section a {
     display: inline-block;
     position: relative;
     color: var(--laranja-claro);
     text-decoration: none;
 }
 
-#copyright a:after {
+.left-section a:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -68,8 +79,25 @@ footer p a {
     transition: transform 0.25s ease-out;
 }
 
-#copyright a:hover:after {
+.left-section a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.right-section p {
+    margin: 0;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-section img {
+    display: block;
+    margin-right: 1rem;
 }
 /* ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2024 */
