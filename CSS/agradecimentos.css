@@ -2,4 +2,35 @@
     color: #000;
 }
 
+#sec-agradecimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 13rem 120px 128px 100px;
+    position: relative;
+}
+
+.agradecimentos-p {
+    line-height: 150%;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.agradecimentos-button {
+    border-radius: 4px;
+    background-color: var(--laranja-claro);
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: all 0.45s ease;
+    text-decoration: none;
+}
+
 /* ESTE SITE FOI DESENVOLVIDO POR NICHOLAS GERADE - COPYRIGHT © 2024 */
